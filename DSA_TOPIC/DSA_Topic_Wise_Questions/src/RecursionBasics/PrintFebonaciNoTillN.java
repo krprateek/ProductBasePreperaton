@@ -17,8 +17,8 @@ public class PrintFebonaciNoTillN {
             return 1;
         }
 
-        int val = febo(n-1) + febo(n-2);
+        return  febo(n-1) + febo(n-2);
 
-        return val;
+
     }
 }
