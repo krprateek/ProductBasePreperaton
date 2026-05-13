@@ -13,10 +13,10 @@ public class QuickSort {
 
     public static void doQuickSort(int[] ar, int start, int end)
     {
-        int pivot=0;
+
         if(start<end)
         {
-            pivot = Partition(ar,start,end);
+            int pivot = Partition(ar,start,end);
             doQuickSort(ar,start,pivot-1);
             doQuickSort(ar,pivot+1,end);
         }
